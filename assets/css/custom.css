@@ -25,6 +25,7 @@
 
 .social .navbar {
   padding: 0px; }
+
 .small-top {
   border-bottom: 1px solid #2b2b2b;
   background-color: #000000; }
@@ -92,3 +93,37 @@
   #search .btn-search {
     background-color: #FD3A13;
     color: white; }
+
+.leftmain a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #141517; }
+
+.leftmain .card-img-overlay {
+  top: -10px;
+  height: 20%; }
+
+.leftmain .card-text {
+  color: #ff0000;
+  font-weight: 600;
+  font-size: 14px;
+  font-style: italic; }
+
+.rigthmain {
+  position: relative; }
+  .rigthmain .carousel-indicators {
+    position: absolute;
+    bottom: 0px; }
+    .rigthmain .carousel-indicators li {
+      border: 1px solid black; }
+      .rigthmain .carousel-indicators li.active {
+        background-color: black; }
+  .rigthmain .titlecarousel a {
+    color: #141517; }
+
+.footer .leftfoot {
+  color: #222;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75rem; }

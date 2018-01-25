@@ -39,34 +39,78 @@
 	}
 }
 
-	.nav-link{
-		font-weight: bold;
-	}
+.nav-link{
+	font-weight: bold;
+}
 
-	#menu>ul>li{
-		&.active{border-bottom: 2px solid red;}
-		&:hover{border-bottom: 2px solid red;}
-	}
-	.navbar-light .navbar-nav .nav-link{
-		&:hover{color:black;}
-		color:black;
-	}
+#menu>ul>li{
+	&.active{border-bottom: 2px solid red;}
+	&:hover{border-bottom: 2px solid red;}
+}
+.navbar-light .navbar-nav .nav-link{
+	&:hover{color:black;}
+	color:black;
+}
 
-	#search{
-		position: relative;
-		&:hover input{width:100%;}
-		input{
-			width:0px;
-			background-color:#d0d0d0;
-			transition: width 0.5s;
-			transition-timing-function:ease-in 2s;
-			float: right;
-		}
-		button{
-			position: absolute;
-			right: 0px;
-			top:0px;
-			z-index: 1;
-		}
-		.btn-search{background-color:#FD3A13;color:white;}
+#search{
+	position: relative;
+	&:hover input{width:100%;}
+	input{
+		width:0px;
+		background-color:#d0d0d0;
+		transition: width 0.5s;
+		transition-timing-function:ease-in 2s;
+		float: right;
 	}
+	button{
+		position: absolute;
+		right: 0px;
+		top:0px;
+		z-index: 1;
+	}
+	.btn-search{background-color:#FD3A13;color:white;}
+}
+
+.leftmain{
+	a{
+		font-size:16px;
+		font-weight: 500;
+    	line-height: 23px;
+    	color:#141517;
+	}
+	& .card-img-overlay{
+		top:-10px;
+		height: 20%;
+	}
+	.card-text{
+		color: #ff0000;
+		font-weight: 600;
+		font-size:14px;
+		font-style: italic;
+	}
+}
+.rigthmain{
+	position: relative;
+	.carousel-indicators{
+		position: absolute;
+		bottom:0px;
+		li{
+			border:1px solid black;
+			&.active{background-color:black;}
+		}
+	}
+	.titlecarousel{
+		a{
+			color:#141517;
+		}
+		
+	}
+}
+.footer{
+	.leftfoot{
+		color: #222;
+		font-weight: 400;
+		font-family: 'Montserrat', sans-serif;
+		font-size:1.75rem;
+	}
+}
