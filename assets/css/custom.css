@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /** Nơi viết/include các css riêng **/
+* {
+  margin: 0px;
+  padding: 0px; }
+
 .title-leftfoot {
   font-size: 30px; }
 
