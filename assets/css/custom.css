@@ -64,10 +64,10 @@
 .nav-link {
   font-weight: bold; }
 
-#menu > ul > li.active {
+#menu ul li.active {
   border-bottom: 2px solid red; }
 
-#menu > ul > li:hover {
+#menu ul li:hover {
   border-bottom: 2px solid red; }
 
 .navbar-light .navbar-nav .nav-link {
@@ -122,8 +122,38 @@
   .rigthmain .titlecarousel a {
     color: #141517; }
 
-.footer .leftfoot {
+.footer .leftfoot .title-leftfoot {
   color: #222;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.75rem; }
+
+.footer a {
+  font-size: 17px;
+  color: #141517;
+  font-weight: 500;
+  line-height: 23px; }
+
+.footer .card-text {
+  color: #ff0000;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic; }
+
+#menu2 .active a {
+  color: black;
+  border-bottom: 2px solid red; }
+
+#menu2 a {
+  color: #aeaeae;
+  font-weight: none; }
+  #menu2 a:hover {
+    border-bottom: 2px solid red;
+    color: black; }
+
+.media .media-body a {
+  font-size: 17px;
+  font-weight: 500; }
+
+.media .time {
+  color: #5a5a5a; }

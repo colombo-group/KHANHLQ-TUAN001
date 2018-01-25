@@ -43,7 +43,7 @@
 	font-weight: bold;
 }
 
-#menu>ul>li{
+#menu ul li{
 	&.active{border-bottom: 2px solid red;}
 	&:hover{border-bottom: 2px solid red;}
 }
@@ -106,10 +106,50 @@
 	}
 }
 .footer{
-	.leftfoot{
+	.leftfoot .title-leftfoot{
 		color: #222;
 		font-weight: 400;
 		font-family: 'Montserrat', sans-serif;
 		font-size:1.75rem;
+	}
+	
+	a{
+		font-size:17px;
+		color:#141517;
+		font-weight: 500;
+		line-height:23px;
+	}
+	.card-text{
+		color: #ff0000;
+		font-weight: 400;
+		font-size:14px;
+		font-style: italic;
+	}
+	
+}
+#menu2{
+	.active{
+		a{
+			color:black;
+			border-bottom: 2px solid red;
+		}
+	}
+	a{color:#aeaeae;
+		font-weight:none;
+		&:hover{
+			border-bottom: 2px solid red;
+			color:black;
+		}
+	}
+}
+.media{
+	.media-body{
+		a{
+			font-size:17px;
+			font-weight: 500;
+		}
+	}
+	.time{
+		color:#5a5a5a
 	}
 }
