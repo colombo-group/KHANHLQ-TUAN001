@@ -1,4 +1,5 @@
 /** Nơi viết/include các css riêng **/
+@import "custom/_variables.scss";
 *{
 	margin:0px;
 	padding:0px;
@@ -10,41 +11,45 @@
 
 	font-weight: 400;
     .sub-title{
-    	color:#c0c0c0;
+    	color: $gray;
     }
     .left{
     }
 }
 .social{
 	& a{
-		padding: 6px 13px;text-decoration:none;display:block;color:#ca1b1b;
-		border-left: 1px solid #2b2b2b;float: left;
-		&:hover{color:#FD3A13;}
-		&:last-child{border-right: 1px solid #2b2b2b;}
+		padding: 6px 13px;
+		text-decoration:none;
+		display:block;
+		color: $hover;
+		border-left: 1px solid $border;
+		float: left;
+		&:hover{color: $hover;}
+		&:last-child{border-right: 1px solid $border;}
 	}
 
 	& .navbar{padding:0px;}
 }
-.small-top{border-bottom: 1px solid #2b2b2b;background-color:#000000;}
-.bot{background-color:#141517;}
+.small-top{border-bottom: 1px solid $border;background-color:black;}
+.bot{background-color:$bg1;}
 .admin{
 	line-height:5rem;
 	float:right;
 	& a{padding-right: 20px;text-decoration:none;display:block;color:white;
 		&:last-child{padding-right: 0em;}
-		&:hover{color:#FD3A13;}
+		&:hover{color:$hover;}
 	}
 	& li{
 		padding-right: 0.5em;
 		&:last-child{padding-right: 0em;}
 	}
-	& .nav-item{position: relative;}
+	.nav-item{position: relative;}
 	.new{
 		width:10px;
 		height:10px;
 		background-color:red;
 		position: absolute;
-		border-color:#141517;
+		border-color:$border;
 		border:1px solid;
 		top:0px;
 		left: 10px;
@@ -57,8 +62,8 @@
 }
 
 #menu ul li{
-	&.active{border-bottom: 2px solid red;}
-	&:hover{border-bottom: 2px solid red;}
+	.active{border-bottom: 2px solid $hover;}
+	&:hover{border-bottom: 2px solid $hover;}
 }
 .navbar-light .navbar-nav .nav-link{
 	&:hover{color:black;}
@@ -70,7 +75,7 @@
 	&:hover input{width:100%;}
 	input{
 		width:0px;
-		background-color:#d0d0d0;
+		background-color:$bg2;
 		transition: width 0.5s;
 		transition-timing-function:ease-in 2s;
 		float: right;
@@ -81,7 +86,7 @@
 		top:0px;
 		z-index: 1;
 	}
-	.btn-search{background-color:#FD3A13;color:white;}
+	.btn-search{background-color:$hover;color:white;}
 }
 
 .leftmain{
@@ -89,14 +94,14 @@
 		font-size:16px;
 		font-weight: 500;
     	line-height: 23px;
-    	color:#141517;
+    	color:$bg1;
 	}
 	& .card-img-overlay{
 		top:-10px;
 		height: 20%;
 	}
 	.card-text{
-		color: #ff0000;
+		color: $hover;
 		font-weight: 600;
 		font-size:14px;
 		font-style: italic;
@@ -114,13 +119,13 @@
 	}
 	.titlecarousel{
 		a{
-			color:#141517;
+			color:$bg1;
 		}
 	}
 }
 .footer{
 	.leftfoot .title-leftfoot{
-		color: #222;
+		color: $title;
 		font-weight: 400;
 		font-family: 'Montserrat', sans-serif;
 		font-size:1.75rem;
@@ -128,12 +133,12 @@
 	
 	a{
 		font-size:17px;
-		color:#141517;
+		color:$bg1;
 		font-weight: 500;
 		line-height:23px;
 	}
 	.card-text{
-		color: #ff0000;
+		color: $hover;
 		font-weight: 400;
 		font-size:14px;
 		font-style: italic;
@@ -147,7 +152,7 @@
 			border-bottom: 2px solid red;
 		}
 	}
-	a{color:#aeaeae;
+	& a{color:$bg2;
 		font-weight:none;
 		&:hover{
 			border-bottom: 2px solid red;
@@ -163,6 +168,6 @@
 		}
 	}
 	.time{
-		color:#5a5a5a
+		color:$bg2;
 	}
 }
