@@ -47,18 +47,16 @@
   line-height: 5rem;
   float: right; }
   .admin a {
-    padding-right: 20px;
+    padding-right: 1rem;
     text-decoration: none;
     display: block;
     color: white; }
     .admin a:last-child {
-      padding-right: 0em; }
+      padding-right: 1rem; }
+    .admin a img {
+      margin-left: 1rem; }
     .admin a:hover {
       color: #ca1b1b; }
-  .admin li {
-    padding-right: 0.5em; }
-    .admin li:last-child {
-      padding-right: 0em; }
   .admin .nav-item {
     position: relative; }
   .admin .new {
@@ -102,7 +100,7 @@
     top: 0px;
     z-index: 1; }
   #search .btn-search {
-    background-color: #ca1b1b;
+    background-color: #FD3A13;
     color: white; }
 
 .leftmain a {
@@ -141,13 +139,14 @@
 
 .footer a {
   font-size: 17px;
+  text-decoration-color: #007bff;
   color: #141517;
   font-weight: 500;
   line-height: 23px; }
 
 .footer .card-text {
   color: #ca1b1b;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   font-style: italic; }
 
@@ -168,3 +167,6 @@
 
 .media .time {
   color: #d0d0d0; }
+
+.video {
+  font-size: 18px; }
