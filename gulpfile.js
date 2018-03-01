@@ -8,7 +8,7 @@ gulp.task('default', ['sass'], function() {
         server: "."
     });
 
-    gulp.watch(path + "/assets/scss/**/*.scss", ['sass']);
+    gulp.watch(path + "/app/scss/**/*.scss", ['sass']);
     gulp.watch(path + "/index.html").on('change', function(){
         console.log("Reloading");
         browserSync.reload();
@@ -19,8 +19,8 @@ gulp.task('default', ['sass'], function() {
 
 //Task compile sass
 gulp.task('sass', function() {
-    return gulp.src(path + "/assets/scss/*.scss")
+    return gulp.src(path + "/app/scss/*.scss")
         .pipe(sass())
-        .pipe(gulp.dest(path + "/assets/css/"))
+        .pipe(gulp.dest(path + "/app/css/"))
         .pipe(browserSync.stream());
 });
