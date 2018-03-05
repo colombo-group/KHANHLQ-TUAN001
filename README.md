@@ -26,6 +26,8 @@ Thực hiện bởi [Lưu Quốc Khánh](https://github.com/kpmquockhanh)
             - gulp: `npm install --save-dev gulp`
             - gulp-sass: `npm install --save-dev gulp-sass`
             - browser-sync: `npm install --save-dev browser-sync`
+            
+_Lưu ý: cài đặt trên folder chứa code đang làm việc._
         
 ## Kiến thức nắm được
 
