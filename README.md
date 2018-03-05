@@ -19,6 +19,7 @@ Thực hiện bởi [Lưu Quốc Khánh](https://github.com/kpmquockhanh)
 
 - Đầu tiên: 
     - Cài nodejs [tại đây](https://nodejs.org/en/)
+- Tiếp theo:
     - Cài các plugin :
         - Có thể sử dụng lệnh sau để cài toàn bộ plugin cần thiết : `npm install --save-dev gulp gulp-sass browser-sync`
         - Hoặc cài từng plugin:
