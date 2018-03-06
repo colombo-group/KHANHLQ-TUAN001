@@ -9,7 +9,7 @@ gulp.task('default', ['sass'], function() {
     });
 
     gulp.watch(path + "/app/scss/**/*.scss", ['sass']);
-    gulp.watch(path + "/index.html").on('change', function(){
+    gulp.watch(path + "/app/index.html").on('change', function(){
         console.log("Reloading");
         browserSync.reload();
     });
